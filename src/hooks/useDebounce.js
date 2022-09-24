@@ -18,3 +18,5 @@ export default function useDebounce(callback, delay) {
 
   return debouncedCallback;
 }
+
+// useDebounce(e.target.value, 500); - example
